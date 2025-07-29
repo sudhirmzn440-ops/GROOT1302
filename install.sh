@@ -10,7 +10,8 @@ cat <<EOL > .devcontainer/devcontainer.json
             "version": "latest"
         }
     },
-    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/\sudhirmzn440-ops/LSR.py",
+    "postStartCommand": "REPO_NAME=\$(basename \$(git rev-parse --show-toplevel)); python3 /workspaces/\GROOT1302
+/LSR.py",
     "customizations": {
         "vscode": {
             "settings": {
